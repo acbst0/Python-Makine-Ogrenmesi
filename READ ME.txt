@@ -1,0 +1,1 @@
+This code has written by VS Code and Chat GPT. I used it for learning foundation of machine learning. Also every explanations which is in code were written Turkish.
