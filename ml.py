@@ -29,6 +29,6 @@ mse = mean_squared_error(y_test, y_pred)
 print("Ortalama Karesel Hata:", mse)
 
 # Yeni bir otomobil örneğinin yakıt tüketimini tahmin edelim
-new_car = np.array([[160, 1300]])
+new_car = np.array([[150, 2000]])
 predicted_fuel_consumption = model.predict(new_car)
-print("Tahmin Edilen Yakıt Tüketimi:", predicted_fuel_consumption[0])
+print("Tahmin Edilen Yakit Tüketimi: ", predicted_fuel_consumption[0])
