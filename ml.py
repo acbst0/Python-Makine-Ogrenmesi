@@ -12,7 +12,7 @@ X = np.array([[120, 1000],
               [200, 1800]])
 
 # Etiketler: Yakıt tüketimi (lt/100km)
-y = np.array([7.5, 6.8, 8.2, 6.2, 5.8])
+y = np.array([15])
 
 # Veriyi eğitim ve test kümelerine bölelim
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
